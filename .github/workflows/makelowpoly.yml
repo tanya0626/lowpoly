@@ -11,6 +11,14 @@ on:
         description: 'Target number of faces for the low poly model'
         required: false
         default: 7500
+      texture_resolution:
+        description: 'Resolution of textures for the low poly model'
+        required: false
+        default: 2048
+      multiresolution_levels:
+        description: 'Number of multiresolution levels for the low poly model'
+        required: false
+        default: 3
 
 jobs:
   build:
